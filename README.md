@@ -30,7 +30,7 @@ yarn start
 
 ## Deployment
 
-For deployment, need to use 'build' directory after run:
+For deployment, need to use 'build' directory after run and set .env PUBLIC_URL to your published url, set appId and clientId for google login and facebook login (You need to set developer access for each account).
 
 ```
 yarn build
@@ -39,6 +39,16 @@ yarn build
 ## Demo
 
 [https://elated-archimedes-0cbc50.netlify.com/](https://elated-archimedes-0cbc50.netlify.com/)
+
+![https://github.com/ddonny/simplecommerce/raw/master/demo.gif]()
+
+## Explanations
+
+useState : could be found at login (src\container\login), search(src\container\search) and tabbar (src\components\tabbar)
+
+useEffect: could be found at focuswindow (src\components\focuswindow) and search (src\container\search)
+
+useRef: at search (src\container\search)
 
 ## Built With
 
