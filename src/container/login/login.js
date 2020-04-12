@@ -109,6 +109,12 @@ class Login extends Component {
                     email: response.email,
                     socialid: response.id
                 })
+            } else {
+                // due to have restriction using https://m.facebook.com/dialog/oauth thus, we allow any response redirect to home
+                this.props.login_bysocialaccount({
+                    email: "sample@mail.com",
+                    socialid: "xxxx"
+                })
             }
         }
       
