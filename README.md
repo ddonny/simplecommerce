@@ -39,8 +39,7 @@ yarn build
 ## Demo
 
 [https://elated-archimedes-0cbc50.netlify.com/](https://elated-archimedes-0cbc50.netlify.com/)
-
-([![https://github.com/ddonny/simplecommerce/raw/master/demo.gif](https://github.com/ddonny/simplecommerce/raw/master)https://github.com/ddonny/simplecommerce/raw/master/demo.gif](https://github.com/ddonny/simplecommerce/blob/master))
+![](https://github.com/ddonny/simplecommerce/raw/master/demo.gif)
 
 ## Explanations
 
