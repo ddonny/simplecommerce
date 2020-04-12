@@ -70,6 +70,7 @@ const LoginForm = (props) => {
                     appId="2532274100321456"
                     fields="name,email,picture"
                     callback={props.responseFacebook}
+                    onFailure={props.responseFacebook}
                     textButton="Sign In with Facebook"
                     cssClass="facebook-signin-button"
                     icon={<FaFacebookF className="facebook-signin-button-icon"/>}
