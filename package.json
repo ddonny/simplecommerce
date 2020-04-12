@@ -1,6 +1,7 @@
 {
   "name": "simplecommerce",
   "version": "1.0.0",
+  "homepage": "https://elated-archimedes-0cbc50.netlify.com",
   "private": true,
   "dependencies": {
     "@babel/core": "7.4.3",
