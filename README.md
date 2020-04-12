@@ -1,6 +1,6 @@
 # SimpleCommerce
 
-exploring new stuff by using react hooks, react router dom, antd mobile, redux
+exploring some react hooks, react router dom, antd mobile, redux
 
 ## Getting Started
 
@@ -30,11 +30,15 @@ yarn start
 
 ## Deployment
 
-For deployment, need to use public directory after run:
+For deployment, need to use 'build' directory after run:
 
 ```
 yarn build
 ```
+
+## Demo
+
+[https://elated-archimedes-0cbc50.netlify.com/](https://elated-archimedes-0cbc50.netlify.com/)
 
 ## Built With
 
