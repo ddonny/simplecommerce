@@ -1,0 +1,43 @@
+.productdetail-page{
+    .image-wrapper{
+        border: solid 1px #ccc;
+        margin: 10px 0;
+    }
+    .productdetail-title {
+        font-weight: bold;
+        color: #2D2D2D;
+        line-height: 3;
+    }
+    .fav-action-icon {
+        font-size: 25px;
+        float: right;
+    }
+    .productdetail-desc {
+        text-align: justify;
+        word-spacing: -2px;
+        margin: 20px 0;
+        text-align-last: left;
+        padding-left: 0px;
+        text-indent: 20px;
+    }
+    .back-button{
+        font-size: 24px;
+        transform: translate(10px, 10px);
+    }
+    .share-button{
+        float: right;
+        transform: translate(-10px, 10px);
+        font-size: 23px;
+    }
+    .foot-info{
+        margin: 20px 0;
+        .price-tag{
+            float: right;
+        }
+        .buy-button {
+            border: solid 1px #ddd !important;
+            width: 100px;
+            float: right;
+        }
+    }
+}

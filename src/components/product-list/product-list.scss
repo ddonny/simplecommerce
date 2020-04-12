@@ -1,0 +1,29 @@
+.product-list{
+    line-height: 4;
+    margin: 30px 0 90px 0;
+    .product{
+        margin: 25px 0;
+        img {
+            border-radius: 5px;
+            border: solid 1px #EFEFF4;
+            object-fit: scale-down;
+            height: 180px;
+        }
+        .item-desc{
+            font-size: 12px;
+            line-height: 2;
+            // transform: translate(0px, -15px);
+        }
+        &.searchmode{
+            img {
+                height: 100px;
+            }
+        }
+    }
+    .fav-action-icon{
+        font-size: 25px;
+        transform: translate(12px, -40px);
+        display: flex;
+    }
+    
+}

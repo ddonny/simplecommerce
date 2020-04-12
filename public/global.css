@@ -1,0 +1,21 @@
+  .body {
+    font-family: 'Open Sans';
+    background-color: #FFF;
+  }
+  #root{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .loading-inline-center{
+    display: flex;
+    justify-content: center;
+    line-height: 4;
+  }
+  .am-navbar-title{
+    font-size: 15px !important;
+  }
+  .message-to-user{
+    font-size: 13.5px;
+    text-align: center;
+  }

@@ -1,0 +1,30 @@
+.categories-list-wb{
+    margin: 0 0;
+    .categories-list{
+        line-height: 4;
+        margin: 10px 0;
+        .item-desc{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1.2;
+            font-size: 12px;
+            text-align: center;
+        }
+        .category-image{
+            object-fit: cover;
+        }
+        .slider-frame{
+            max-width: 100% !important;
+            overflow: visible !important;
+        }
+        &.freeze{
+            .slider-frame{
+                overflow: hidden !important;
+            }
+            .slider-list{
+                transform: translate3d(0px, 0px, 0px);
+            }
+        }
+    }
+}

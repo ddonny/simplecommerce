@@ -1,0 +1,93 @@
+.bg-login{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-dark{
+    background-color: #424242;
+    color: #FFF;
+}
+// .btn-login{
+//     float: right;
+//     min-width: 100px;
+// }
+.wingblank-login {
+    background: #fff;
+    min-height: 300px;
+    min-width: 320px;
+    margin-top: 10%;
+    border: solid 1px #eee;
+    .wrapper-login{
+        .am-list-header{
+            text-align: center;
+            font-weight: 600;
+            color: #111;
+        }
+        .am-list{
+            border-bottom: none;
+        }
+        .am-checkbox-agree-label{
+            font-size: 12px;
+        }
+        .am-list-line::after{
+            content: none !important;
+        }
+        margin: 0 15px;
+        .btn-login {
+            margin-right: 15px;
+        }
+        .login-input-field {
+            .am-input-control input {
+                border: solid 1px #D5D5D5;
+                border-radius: 5px;
+            }
+        }
+        .facebook-signin-button{
+            background-color: #3F5993;
+            overflow: hidden;
+            border: none;
+            border-radius: 5px;
+            height: 30px;
+            color: #fff;
+            width: 100%;
+            width: calc(100% - 30px);
+            margin: 0 15px;
+            .facebook-signin-button-icon {
+                margin: 0 12px;
+                position: absolute;
+                left: 50px;
+            }
+        }
+        .google-signin-button{
+            background-color: #4496EC !important;
+            height: 30px;
+            border-radius: 5px !important;
+            display: block !important;
+            width: 100%;
+            width: calc(100% - 30px);
+            margin: 0 15px;
+            span{
+                padding: 0 0 !important;
+            }
+            .google-signin-button-icon {
+                margin: 0 12px;
+                position: absolute;
+                left: 50px;
+                color: #FFF;
+            }
+            .google-signin-button-text{
+                color: #FFF;
+                width: 100%;
+            }
+        }
+    }
+    .am-list-item .am-input-control input {
+        height: 30px !important;
+        padding: 0 10px;
+    }
+    .am-list-body::after{
+        content: none !important;
+    }
+    
+}

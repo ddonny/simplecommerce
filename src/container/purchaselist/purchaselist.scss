@@ -1,0 +1,27 @@
+.purchaselist-page{
+    .navbar-purchaselist{
+        // position: fixed;
+        // z-index: 1;
+        // top: 0;    
+        min-width: 100vw;
+        background: #EFEFF4;
+        // .am-navbar-left {
+        //     min-width: 70px;
+        // }
+        .am-navbar-title{
+            justify-content: flex-start;
+        }
+        .am-search{
+            width: calc(100vw - 70px);
+            .am-search-input{
+                .am-search-synthetic-ph-placeholder{
+                    font-size: 13.5px;
+                }
+            }
+        }
+        .cancel-search-icon {
+            font-size: 20px;
+            margin: 12px 0;
+        }
+    }
+}
